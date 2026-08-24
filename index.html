@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omar Seif — Computer Science Student &amp; Developer</title>
+  <meta name="description" content="Portfolio of Omar Seif, Computer Science student at Nahda University. Programming, problem solving, and entrepreneurship." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+</div>
+  <!-- Top bar: mimics an editor's title bar -->
+  <header class="titlebar">
+    <div class="titlebar-left">
+      <span class="dot dot-red"></span>
+      <span class="dot dot-amber"></span>
+      <span class="dot dot-teal"></span>
+      <span class="titlebar-path">omar-seif — portfolio</span>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="workspace">
+
+    <!-- Sidebar: file explorer nav -->
+    <nav class="sidebar" id="sidebar" aria-label="Section navigation">
+      <p class="sidebar-heading">EXPLORER</p>
+      <ul class="file-tree">
+        <li><a href="#about" class="file-link" data-section="about"><span class="file-icon">◆</span>about.md</a></li>
+        <li><a href="#skills" class="file-link" data-section="skills"><span class="file-icon">◆</span>skills.json</a></li>
+        <li><a href="#projects" class="file-link" data-section="projects"><span class="file-icon">◆</span>projects/</a></li>
+        <li><a href="#education" class="file-link" data-section="education"><span class="file-icon">◆</span>education.md</a></li>
+        <li><a href="#certifications" class="file-link" data-section="certifications"><span class="file-icon">◆</span>certifications.md</a></li>
+        <li><a href="#languages" class="file-link" data-section="languages"><span class="file-icon">◆</span>languages.json</a></li>
+        <li><a href="#contact" class="file-link" data-section="contact"><span class="file-icon">◆</span>contact.sh</a></li>
+      </ul>
+      <div class="sidebar-footer">
+        <span class="status-dot"></span>
+        <span>Open to internships &amp; freelance work</span>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="content">
+
+      <!-- Tabs bar -->
+      <div class="tabs" aria-hidden="true">
+        <span class="tab active">about.md</span>
+        <span class="tab">skills.json</span>
+        <span class="tab">projects/</span>
+      </div>
+
+      <!-- HERO / ABOUT -->
+      <section id="about" class="section hero">
+
+  <div class="about-image">
+    <img src="images/IMG-20250917-WA0298.jpg" class="profile-img" alt="Omar Seif">
+  </div>
+
+  <p class="eyebrow">// professional_summary</p>
+        <p class="eyebrow">// professional_summary</p>
+        <h1 class="hero-name">Omar Seif</h1>
+        <p class="hero-role">Computer Science Student — Nahda University</p>
+
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-amber"></span><span class="dot dot-teal"></span>
+            <span class="terminal-title">whoami.sh</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> <span class="typed" id="typedLine"></span><span class="cursor">&nbsp;</span></p>
+          </div>
+        </div>
+
+        <p class="hero-summary">
+          I am a Computer Science student passionate about technology, programming, business, and entrepreneurship.
+          I am continuously learning new skills, sharpening my problem-solving ability, and working to build a strong
+          foundation for a career as a software developer. I am eager to apply my growing technical skills to real
+          projects, internships, and freelance opportunities.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <p class="eyebrow">// skills.json</p>
+        <h2 class="section-title">Skills</h2>
+        <p class="section-intro">Core competencies I bring to a team, project, or client engagement.</p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-tag">Technical</span>
+            <h3>C Programming</h3>
+            <p>Writing structured, efficient code and applying core programming logic to solve problems.</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-tag">Technical</span>
+            <h3>HTML &amp; CSS</h3>
+            <p>Building clean, responsive web page structures and styling them for a modern look.</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-tag">Technical</span>
+            <h3>Problem Solving</h3>
+            <p>Breaking down complex challenges into clear, logical, and actionable steps.</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-tag">Productivity</span>
+            <h3>Microsoft Office</h3>
+            <p>Preparing professional documents, spreadsheets, and presentations efficiently.</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-tag">Interpersonal</span>
+            <h3>Communication</h3>
+            <p>Explaining ideas clearly and collaborating effectively with peers and stakeholders.</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-tag">Interpersonal</span>
+            <h3>Teamwork</h3>
+            <p>Contributing reliably within a team and supporting shared goals and deadlines.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <p class="eyebrow">// projects/</p>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-intro">
+          Replace the placeholders below with your own work — coursework, personal builds, or freelance projects.
+          Even a small project shows initiative to employers.
+        </p>
+
+        <div class="project-grid">
+          <article class="project-card placeholder">
+            <div class="project-card-top">
+              <span class="project-index">01</span>
+              <span class="project-status">Add your project</span>
+            </div>
+            <h3>Project Title</h3>
+            <p>Briefly describe what the project does, the problem it solves, and your specific role in building it.</p>
+            <ul class="project-stack">
+              <li>Tech 1</li><li>Tech 2</li><li>Tech 3</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">Source Code →</a>
+            </div>
+          </article>
+
+          <article class="project-card placeholder">
+            <div class="project-card-top">
+              <span class="project-index">02</span>
+              <span class="project-status">Add your project</span>
+            </div>
+            <h3>Project Title</h3>
+            <p>Briefly describe what the project does, the problem it solves, and your specific role in building it.</p>
+            <ul class="project-stack">
+              <li>Tech 1</li><li>Tech 2</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">Source Code →</a>
+            </div>
+          </article>
+
+          <article class="project-card placeholder">
+            <div class="project-card-top">
+              <span class="project-index">03</span>
+              <span class="project-status">Add your project</span>
+            </div>
+            <h3>Project Title</h3>
+            <p>Briefly describe what the project does, the problem it solves, and your specific role in building it.</p>
+            <ul class="project-stack">
+              <li>Tech 1</li><li>Tech 2</li><li>Tech 3</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">Source Code →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section">
+        <p class="eyebrow">// education.md</p>
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Bachelor of Science in Computer Science</h3>
+              <p class="timeline-meta">Nahda University · Expected Graduation: 2030</p>
+              <p>Building a strong foundation in programming, problem solving, and software fundamentals, with a
+                growing interest in the business and entrepreneurial side of technology.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section id="certifications" class="section">
+        <p class="eyebrow">// certifications.md</p>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-intro">
+          Add any completed courses or certificates here (e.g. Coursera, freeCodeCamp, Microsoft, HackerRank).
+        </p>
+
+        <div class="cert-list">
+          <div class="cert-item placeholder">
+            <span class="cert-icon">▣</span>
+            <div>
+              <h3>Certificate Name</h3>
+              <p class="timeline-meta">Issuing Organization · Year</p>
+            </div>
+          </div>
+          <div class="cert-item placeholder">
+            <span class="cert-icon">▣</span>
+            <div>
+              <h3>Certificate Name</h3>
+              <p class="timeline-meta">Issuing Organization · Year</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LANGUAGES -->
+      <section id="languages" class="section">
+        <p class="eyebrow">// languages.json</p>
+        <h2 class="section-title">Languages</h2>
+
+        <div class="lang-grid">
+          <div class="lang-card">
+            <div class="lang-top">
+              <h3>Arabic</h3>
+              <span class="lang-level">Native</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width: 100%;"></div></div>
+          </div>
+          <div class="lang-card">
+            <div class="lang-top">
+              <h3>English</h3>
+              <span class="lang-level">B1 — Intermediate</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width: 55%;"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <p class="eyebrow">// contact.sh</p>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-intro">
+          Add your real details below so employers and clients can reach you. Placeholders are marked clearly.
+        </p>
+
+        <div class="contact-grid">
+          <a href="mailto:oseif6347@gmail.com" class="contact-card">
+  <span class="contact-label">Email</span>
+  <span class="contact-value">oseif6347@gmail.com</span>
+</a>
+          <a href="tel:01027836586" class="contact-card">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">01027836586</span>
+          </a>
+          <a href="https://www.instagram.com/omar_.seif/" target="_blank" rel="noopener noreferrer" class="contact-card">
+  <span class="contact-label">Instagram</span>
+  <span class="contact-value">instagram.com/omar_.seif</span>
+</a>
+          <a href="https://www.facebook.com/share/1E6A6PWMTT/" target="_blank" rel="noopener noreferrer" class="contact-card">
+  <span class="contact-label">Facebook</span>
+  <span class="contact-value">facebook.com</span>
+</a>
+<a href="https://github.com/oseif6347-droid" class="contact-card" target="_blank">
+  <span class="contact-label">GitHub</span>
+  <span class="contact-value">github.com/oseif6347-droid</span>
+</a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Say hello…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Omar Seif. Built with HTML, CSS &amp; JavaScript.</p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
