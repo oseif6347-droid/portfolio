@@ -665,7 +665,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .about-image {
   position: absolute;
-  top: 160px;
+  top: 120px;
   right: 2%;
   z-index: 10;
 }
@@ -682,8 +682,8 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 @media (max-width: 600px) {
     .profile-img {
-        width: 55vw !important;
-        height: 55vw !important;
+        width: 40vw !important;
+        height: 40vw !important;
         max-width: 55vw !important;
         max-height: 55vw !important;
     }
