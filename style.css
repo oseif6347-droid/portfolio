@@ -665,7 +665,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .about-image {
   position: absolute;
-  top: 115px;
+  top: 100px;
   right: 2%;
   z-index: 10;
 }
